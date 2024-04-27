@@ -13,6 +13,8 @@
 		AB7826372BD8AF3B00C00594 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AB7826362BD8AF3B00C00594 /* Base */; };
 		AB7826392BD8AF3C00C00594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7826382BD8AF3C00C00594 /* Assets.xcassets */; };
 		AB78263C2BD8AF3C00C00594 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AB78263B2BD8AF3C00C00594 /* Base */; };
+		AB78264D2BD9C9A100C00594 /* MyImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AB78264C2BD9C9A100C00594 /* MyImageClassifier.mlmodel */; };
+		AB78264F2BDD4C9400C00594 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78264E2BDD4C9400C00594 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AB7826382BD8AF3C00C00594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB78263B2BD8AF3C00C00594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB78263D2BD8AF3C00C00594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB78264C2BD9C9A100C00594 /* MyImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyImageClassifier.mlmodel; sourceTree = "<group>"; };
+		AB78264E2BDD4C9400C00594 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				AB78262F2BD8AF3B00C00594 /* AppDelegate.swift */,
 				AB7826312BD8AF3B00C00594 /* SceneDelegate.swift */,
 				AB7826332BD8AF3B00C00594 /* ViewController.swift */,
+				AB78264C2BD9C9A100C00594 /* MyImageClassifier.mlmodel */,
 				AB7826352BD8AF3B00C00594 /* Main.storyboard */,
+				AB78264E2BDD4C9400C00594 /* SecondViewController.swift */,
 				AB7826382BD8AF3C00C00594 /* Assets.xcassets */,
 				AB78263A2BD8AF3C00C00594 /* LaunchScreen.storyboard */,
 				AB78263D2BD8AF3C00C00594 /* Info.plist */,
@@ -140,6 +146,8 @@
 			files = (
 				AB7826342BD8AF3B00C00594 /* ViewController.swift in Sources */,
 				AB7826302BD8AF3B00C00594 /* AppDelegate.swift in Sources */,
+				AB78264D2BD9C9A100C00594 /* MyImageClassifier.mlmodel in Sources */,
+				AB78264F2BDD4C9400C00594 /* SecondViewController.swift in Sources */,
 				AB7826322BD8AF3B00C00594 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -292,6 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M94P2H5734;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MAD_Grad_Chitte_DharmendraReddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -320,6 +329,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M94P2H5734;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MAD_Grad_Chitte_DharmendraReddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
